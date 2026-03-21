@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Setup WISCI skills for cross-platform discovery.
-# Creates symlinks from wisci-plugin/skills/* into each platform's skill directory.
+# Creates symlinks from skills/* into each platform's skill directory.
 #
 # Usage: ./scripts/setup-platforms.sh
 #
@@ -12,7 +12,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
-SKILLS_SOURCE="$PROJECT_ROOT/wisci-plugin/skills"
+SKILLS_SOURCE="$PROJECT_ROOT/skills"
 
 if [ ! -d "$SKILLS_SOURCE" ]; then
   echo "Error: $SKILLS_SOURCE not found. Run this script from the wisci project root." >&2
