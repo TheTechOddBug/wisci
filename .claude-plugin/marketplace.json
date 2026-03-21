@@ -1,0 +1,17 @@
+{
+  "name": "wisci",
+  "owner": {
+    "name": "Dennis Nasarov"
+  },
+  "plugins": [
+    {
+      "name": "wisci",
+      "source": "./",
+      "description": "WISCI context engineering framework — Write, Isolate, Select, Compress, Iterate. Four primary commands plus helpers for proactive LLM context management.",
+      "version": "1.3.0",
+      "author": {
+        "name": "Dennis Nasarov"
+      }
+    }
+  ]
+}
