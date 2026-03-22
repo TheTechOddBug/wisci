@@ -2,3 +2,4 @@ docs/
 scratchpad/
 .agents/
 .gemini/
+.DS_Store
