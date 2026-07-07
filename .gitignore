@@ -3,3 +3,5 @@ scratchpad/
 .agents/
 .gemini/
 .DS_Store
+evals/outputs/
+__pycache__/
